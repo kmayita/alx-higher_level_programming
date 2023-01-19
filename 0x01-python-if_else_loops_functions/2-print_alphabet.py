@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def add(a, b):
-    return (a + b)
+for c in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(c), end="")
